@@ -25,6 +25,7 @@ dependencies:
 - lens
 - csv == 0.1.2
 - bytestring
+- aeson
  
 library:
   source-dirs: src
