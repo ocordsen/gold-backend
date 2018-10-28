@@ -14,7 +14,8 @@ import           Text.Read                  hiding (get)
 
 data Item = Item {date  :: String, value :: Float} deriving (Generic, Show)
 
-instance ToJSON Item where toEncoding = genericToEncoding defaultOptions
+instance ToJSON Item where
+  toEncoding = genericToEncoding defaultOptions
 
 main = do
   delete backendUrl
