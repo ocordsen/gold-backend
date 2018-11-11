@@ -26,7 +26,8 @@ dependencies:
 - csv == 0.1.2
 - bytestring
 - aeson
- 
+- http-client
+
 library:
   source-dirs: src
 
